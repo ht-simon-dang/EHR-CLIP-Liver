@@ -69,3 +69,5 @@ python .\src\predict.py -I <image_path> -S <model_size [S/L]> -C <checkpoint_nam
 - [GPT-2](https://openai.com/blog/better-language-Models/)
 - [ClipCap; Mokady, Ron and Hertz, Amir and Bermano, Amit H](https://arxiv.org/abs/2111.09734)
 - [HuggingFace](https://huggingface.co/)
+
+In cooperation with [knm](https://knmstudio.com/?utm_source=github&utm_medium=clip-gpt-captioner)
