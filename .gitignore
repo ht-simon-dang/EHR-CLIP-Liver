@@ -5,3 +5,4 @@ __pycache__/
 /weights/
 /wandb/
 test_generation.ipynb
+/datasets/
