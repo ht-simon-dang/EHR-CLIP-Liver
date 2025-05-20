@@ -1,5 +1,19 @@
 # CLIPxGPT Captioner
 
+## NEW: Env setup:
+
+setup on conda:
+
+```bash
+conda create -n CLIPGPT python=3.9
+
+conda install nvidia/label/cuda-11.8.0::cuda-toolkit
+
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+
+pip install -r requirement.txt
+```
+
 ## Description
 
 **`CLIPxGPT Captioner`** is Image Captioning Model based on [OpenAI's](https://openai.com/) [CLIP](https://openai.com/blog/clip/) and [GPT-2](https://openai.com/blog/better-language-models/). The Model uses a Mapping module to "translate" CLIP embeddings ​​to GPT-2. The model is trained on the [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/) dataset, downloaded from [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset)
